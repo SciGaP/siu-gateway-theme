@@ -1,0 +1,57 @@
+/*450 pixels and above beyond this point*/
+
+@media all and (min-width: 450px) {
+}
+/*769 pixels and above beyond this point*/
+
+@media all and (min-width: 769px) {
+  
+header.map {
+    height:84px;
+}
+
+#nav-collapse > div#tac-nav-wrapper {
+}
+
+.bannerinside #nav-wrapper ul#main {
+}
+
+.bannerinside div.logo img.hor {
+    top:19px;
+}
+  
+}
+
+/*960 pixels and above beyond this point*/
+
+@media all and (min-width: 960px) {
+    
+ 
+}
+
+/*1190 pixels and above beyond this point*/
+
+@media all and (min-width: 1190px) {
+
+    #nav-collapse ul#main li {
+    width: 15%;
+}
+    
+     .container-categories ul.subnav {
+      width:85%;
+  }
+  
+  .buildings-wrapper {
+      width:25%;
+      padding:10px 10px 10px 31px;
+  }
+  
+form.buildings-menu select {
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1001;
+}
+}
+
