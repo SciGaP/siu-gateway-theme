@@ -12,8 +12,6 @@
         </section>
     </div>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript">
-</script>
 <script src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/scripts/responsive-nav.js" type="text/javascript">
 </script>
 <script src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/scripts/modernizr.js" type="text/javascript">

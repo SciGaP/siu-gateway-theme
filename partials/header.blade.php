@@ -1,5 +1,5 @@
 
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/style.css"/>
+{{-- <link media="all" type="text/css" rel="stylesheet" href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/base.css"/> --}}
 
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta charset="utf-8" />
@@ -11,8 +11,8 @@
 <meta content="SIU" property="og:site_name" />
 <meta content="Science Gateway" property="og:description" />
 
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css" /
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/map.css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css" />
+{{-- <link media="all" type="text/css" rel="stylesheet" href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/map.css"/> --}}
 
 <!--Make this site work in IE, do not remove this script-->
 <!--[if lt IE 9]>
