@@ -1,0 +1,65 @@
+.theme-header header {
+    background-color: #660000;
+}
+.theme-header header img {
+    display: block;
+    padding: 15px;
+}
+.footer-wrapper {
+    max-width: 1190px;
+    margin: 0 auto;
+    /*height: 100%; REMOVED BY LIZ 11-18-15*/
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #4D4D4D;
+}
+.theme-footer {
+    background-color: #333;
+    padding: 30px;
+    margin: 0;
+    color: #FFFFFF;
+    clear:both;
+}
+.theme-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.theme-footer p {
+    font-size: 13px;
+    margin-top:0;
+}
+.theme-footer h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+}
+.theme-footer .contact {
+    width: 28%;
+    float: left;
+    display: inline-block;
+}
+.theme-footer .footer-links {
+    width: 70%;
+    display: inline-block;
+}
+.theme-footer .footer-links p {
+    font-size: 12px;
+    color: #BABABA;
+}
+.theme-footer .footer-links ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.theme-footer .footer-links ul li {
+    display: inline-block;
+    font-weight: normal;
+    padding-right:4px;
+    border-right:1px solid #FFF;
+}
+
+.theme-footer .footer-links ul li:last-child {
+    border-right:none;
+}
