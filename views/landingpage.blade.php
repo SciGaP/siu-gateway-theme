@@ -12,12 +12,12 @@
     <meta content="SIU" property="og:site_name" />
     <meta content="Science Gateway" property="og:description" />
 
-    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css" />
     <link href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/base.css" rel="stylesheet" />
     <link href="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/css/map.css" rel="stylesheet" />
     <!--Make this site work in IE, do not remove this script-->
     <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
     <title>Science Gateway | SIU</title>
 </head>
@@ -90,7 +90,7 @@
                     </section>
                 </div>
         </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript">
         </script>
         <script src="{{ URL::to('/') }}/themes/{{Session::get('theme')}}/assets/scripts/responsive-nav.js" type="text/javascript">
         </script>
